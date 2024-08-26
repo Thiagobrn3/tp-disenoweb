@@ -1,0 +1,71 @@
+.table{
+    width: 710px;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    border-collapse: collapse;
+}
+#box{
+    width: 927px;
+    background: linear-gradient(rgb(4, 91, 214), rgb(1, 31, 61));
+}
+.id-column {
+    width: 300px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+th{
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+td{
+    border: 1px solid;
+    padding:3px ;
+}
+
+thead th {
+    text-align: left;
+}
+
+
+tfoot td {
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#popUp label {
+    font-weight: bold;
+}
+
+#popUp {
+    background-color: #004080;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+#popUp table td, 
+#popUp table input {
+    background-color: #004080;
+    color: #ffffff;
+    border: none;
+    padding: 6px;
+}
+
+#popUp button {
+    background-color: #0066cc; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#popUp button:hover {
+    background-color: #005bb5;
+}
